@@ -1,0 +1,47 @@
+/* 
+Parti du CSS qui gere l'entete de la page.
+*/
+
+body#entete {
+	background-image: linear-gradient(black, rgb(0, 20, 0), rgb(0, 60, 0), rgb(0, 20, 0), black);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+menu#entete {
+	margin-left: 14.5%;
+}
+
+menu#entete > li {
+	display: inline-block;
+    padding-left: 2%;
+}
+
+menu#entete > li > a {
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+}
+
+menu#entete > li#imageSpotify {
+	margin-right: 26.5%;
+}
+
+body#principal {
+	background-color: white;
+}
+
+/* 
+Parti du CSS qui gere la partie principale de la page.
+*/
+
+menu#principal > li {
+	display: inline-block;
+}
+menu#principal {
+	border-color: white;
+	border-style: outset;
+	margin-left: 10%;
+	margin-right: 10%;
+}
