@@ -2,14 +2,14 @@
 Parti du CSS qui gere l'entete de la page.
 */
 
-body#entete {
+body {
 	background-image: linear-gradient(black, rgb(0, 20, 0), rgb(0, 60, 0), rgb(0, 20, 0), black);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 menu#entete {
-	margin-left: 14.5%;
+	margin-left: 7%;
 }
 
 menu#entete > li {
@@ -24,48 +24,22 @@ menu#entete > li > a {
 	font-family: Arial;
 }
 
-menu#entete > li#imageSpotify {
-	margin-right: 26.5%;
-}
-
-body#principal {
-	background-color: white;
-}
-
-/* 
-Parti du CSS qui gere la partie principale de la page.
+/*
+Parti du CSS qui gere le pied de la page.
 */
 
-menu#principal > li {
-	display: inline-block;
-	margin-top: 3%;
-}
-menu#principal {
-	display: flex;
-	justify-content: space-around;
+menu#pied {
+	border-top-style:solid;
 	border-color: white;
-	border-style: outset;
-	margin-left: 10%;
-	margin-right: 10%;
 }
 
-menu#principal > li > a {
-	text-decoration: none;
-	color: white;
-	font-family: 'Times new Roman';
-}
-
-fieldset {
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
-legend {
-	color: white;
-}
-
-label {
-	color: white;
+menu#pied > li {
 	display: inline-block;
-	width: 50%;
+    padding-left: 5%;
+	margin-top: 10px;
+}
+
+menu > li#imageSpotify {
+	margin-left: 10%;
+	margin-right: 19%;
 }

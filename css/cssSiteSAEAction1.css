@@ -1,0 +1,27 @@
+fieldset {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+legend {
+	color: white;
+}
+
+label {
+	color: white;
+	display: inline-block;
+	width: 50%;
+}
+
+a#Principal {
+    display: flex;
+    justify-content: space-around;
+    border-style: inset;
+    border-color: white;
+    margin-left: 25%;
+    margin-right: 25%;  
+}
+img {
+    margin-left: 20%;
+    margin-right: 20%;
+}
