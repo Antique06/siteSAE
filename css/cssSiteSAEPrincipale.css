@@ -15,8 +15,20 @@ menu#principal {
 	margin-right: 10%;
 }
 
+li#ligne {
+	border-style: solid;
+	border-width: 1px;
+	color: white;
+}
+
 menu#principal > li > a {
 	text-decoration: none;
 	color: white;
 	font-family: 'Times new Roman';
 }
+
+p {
+	display: flex;
+	justify-content: center;
+}
+

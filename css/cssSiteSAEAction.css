@@ -1,0 +1,38 @@
+fieldset {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+legend {
+	color: white;
+}
+
+label {
+	color: white;
+	display: inline-block;
+	width: 50%;
+}
+
+menu#Principal, menu#Principal > li > p {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+menu#Principal > li {
+    display: inline-block;
+    border-style: outset;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
