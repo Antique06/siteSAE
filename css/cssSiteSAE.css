@@ -3,7 +3,7 @@ Parti du CSS qui gere l'entete de la page.
 */
 
 body {
-	background-image: linear-gradient(black, rgb(0, 30, 0), rgb(0, 80, 0), rgb(0, 30, 0), black);
+	background-image: linear-gradient(black, rgb(0, 10, 0), rgb(0, 60, 0), rgb(0, 10, 0), black);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
