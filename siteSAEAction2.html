@@ -45,63 +45,47 @@
 			</p> 
 		</li>
     </menu>
-	<form>
+	<form action="siteSAEPrincipale.html">
 		<fieldset>
 			<legend>FORMULAIRE D'INSCRIPTION AUX DIFFÉRENTES ACTIONS</legend>
 			<fieldset>
 				<legend>INFORMATIONS PERSONNELLES</legend>
-				<label for="Nom">Nom :</label>
+				<label for="Nom">* Nom :</label>
 				<input type="text" id="Nom" required>
-				<label for="Prenom">Prenom :</label>
+				<label for="Prenom">* Prenom :</label>
 				<input type="text" id="Prenom" required>
-				<label for="Adresse">Adresse :</label>
+				<label for="Adresse">* Adresse :</label>
 				<input type="text" id="Adresse" required>
-                <label for="NumEmp">Numéro d'employé :</label>
+                <label for="NumEmp">* Numéro d'employé :</label>
 				<input type="number" id="NumEmp" required max="10000">
-				<label for="NumTel">Numéro de Téléphone :</label>
+				<label for="NumTel">* Numéro de Téléphone :</label>
 				<input type="text" id="NumTel" required minlength="10" maxlength="10">
-				<label for="AdresMail">Adresse Mail :</label>
+				<label for="AdresMail">* Adresse Mail :</label>
 				<input type="email" id="AdresMail" required	>
 			</fieldset>
 			<fieldset>
-				<legend>INSCRIPTIONS AUX ACTIONS</legend>
-				<label>Bus :</label>
-				<input type="checkbox" id="Bus">
-				<label>Place de parking :</label>
-				<input type="checkbox" id="Parking">
-				<label>Télétravail :</label>
-				<input type="checkbox" id="Teletravail">
-				<fieldset>
-					<legend>Reservation Bus</legend>
-					<label>Jour(s) :</label>
-					<input type="number" id="Bus" min="1" max="7" style="width: 176px; height: 17px;">
-                    <label>Horraire(s) :</label>
-					<input type="text" id="Bus">
-                    <label> Nombre de fois par Jour(s) :</label>
-                    <input type="number" id="Bus">
-				</fieldset>
-                <fieldset>
-					<legend>Reservation Place De Parking</legend>
-                    <label>Jour(s) :</label>
-					<input type="number" id="Parking">
-                    <label>Horraire(s) :</label>
-					<input type="text" id="Parking">
-                    <label>Numéro du Parking :</label>
-                    <input type="number" id="Parking">
-				</fieldset>
-                <fieldset>
-					<legend>Reservation Télétravail</legend>
-
-					<label>Jour(s) :</label>
-					<input type="number" id="Teletravail" min="1" max="7" style="width: 176px; height: 17px;">
-                    <label>Horraire(s) :</label>
-					<input type="text" id="Teletravail">
-                    <label>Logiciel requis :</label>
-                    <input type="text" id="Teletravail">
-				</fieldset>
+				<legend>Reservation Parking pour Voiture Électrique</legend>
+				<label>* Jour(s) des réservations :</label>
+				<input type="checkbox" name="jour" id="lundi" >
+				<label for="lundi" style="width:0%; display:inline">Lundi</label>
+				<input type="checkbox" name="jour" id="mardi" >
+				<label for="mardi" style="width:0%; display:inline">Mardi</label>
+				<input type="checkbox" name="jour" id="mercredi" >
+				<label for="mercredi" style="width:0%; display:inline">Mercredi</label>
+				<input type="checkbox" name="jour" id="jeudi" >
+				<label for="jeudi" style="width:0%; display:inline">Jeudi</label>
+				<input type="checkbox" name="jour" id="vendredi" >
+				<label for="vendredi" style="width:0%; display:inline">Vendredi</label>
+                <label>* Matin / Après-midi / Matin et Après-midi :</label>
+                <input type="radio" name="temps" id="temps1" required>
+				<label for="temps1" style="width:0%; display:inline">Matin</label>
+				<input type="radio" name="temps" id="temps2" required>
+				<label for="temps2" style="width:0%; display:inline">Après-midi</label>
+				<input type="radio" name="temps" id="temps3" required>
+				<label for="temps3" style="width:0%; display:inline">Matin et Après-midi</label>
 			</fieldset>
-			<label></label>
-			<input type="submit" value="Submit" style="width: 70px; height: 30px;">
+			<label>* : CHAMP OBLIGATOIRE</label>
+			<input type="submit" value="Soumettre" required style="width: 80; height: 30px;">
 		</fieldset>
 	</form>
 	<nav> 

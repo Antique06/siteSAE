@@ -21,7 +21,6 @@ menu#Principal, menu#Principal > li > p {
 
 menu#Principal > li {
     display: inline-block;
-    border-style: outset;
     padding-right: 1%;
     padding-left: 1%;
     padding-top: 1%;
