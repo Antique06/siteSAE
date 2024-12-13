@@ -19,29 +19,30 @@
 	<menu id="Principal">
 		<li>
 			<img id="Principal" src="images/bus.png" width="500" height="300">
-			<p>
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br> 
-				contenu <br>
+			<p> Écoutez votre musique, voyagez vert avec Spotify et Ilevia ! 🎧🌳 <br>
+				Chez Spotify, nous sommes convaincus que la musique a le pouvoir de <br>
+				rassembler et d'inspirer. Mais nous sommes également conscients de <br>
+				notre responsabilité envers l'environnement. C'est pourquoi nous nous <br>
+				engageons à réduire notre impact environnemental et à promouvoir des <br>
+				modes de transport durables. <br>
+				Et quoi de mieux que de s'associer à Ilevia, leader du transport en <br>
+				commun dans la région, pour offrir à nos employés un accès privilégié <br>
+				à des abonnements de bus ? <br>
+				Profitez de tarifs réduits ! Les employés de Spotify bénéficient d'une <br>
+				réduction de 20% sur les abonnements mensuels et annuels d'Ilevia. <br>
+				Des lignes dédiées à votre service ! Le partenariat vous donne accès <br>
+				à des lignes spécifiques du réseau Ilevia, simplifiant vos déplacements. <br>
+				Planifiez vos trajets en toute simplicité ! Grâce à l'application Spotify, <br>
+				vous pouvez consulter les horaires et les itinéraires des bus directement, <br>
+				sans avoir besoin d'autres applications. <br>
+				Un choix écologique et économique ! En favorisant l'utilisation des <br>
+				transports en commun, Spotify encourage ses employés à opter pour une <br>
+				solution de mobilité plus durable et plus économique. <br>
+				En choisissant le transport en commun, nos employés contribuent à réduire <br>
+				les émissions de CO2 de 10% par rapport à la voiture individuelle, à <br>
+				améliorer la qualité de l'air et à lutter contre la congestion routière. <br>
+				Ensemble, Spotify et Ilevia s'engagent pour un avenir plus vert et plus fluide ! <br>
+				Rejoignez-nous dans cette aventure !
 			</p> 
 		</li>
     </menu>
@@ -51,17 +52,17 @@
 			<fieldset>
 				<legend>INFORMATIONS PERSONNELLES</legend>
 				<label for="Nom">* Nom :</label>
-				<input type="text" id="Nom" required>
+				<input type="text" id="Nom" placeholder="Nom" required>
 				<label for="Prenom">* Prenom :</label>
-				<input type="text" id="Prenom" required>
+				<input type="text" id="Prenom" placeholder="Prenom" required>
 				<label for="Adresse">* Adresse :</label>
-				<input type="text" id="Adresse" required>
+				<input type="text" id="Adresse" placeholder="Adresse" required>
                 <label for="NumEmp">* Numéro d'employé :</label>
-				<input type="number" id="NumEmp" required max="10000">
+				<input type="number" id="NumEmp" placeholder="Numéro d'employé" required max="10000">
 				<label for="NumTel">* Numéro de Téléphone :</label>
-				<input type="text" id="NumTel" required minlength="10" maxlength="10">
+				<input type="text" id="NumTel" placeholder="Numéro de téléphone" required minlength="10" maxlength="10">
 				<label for="AdresMail">* Adresse Mail :</label>
-				<input type="email" id="AdresMail" required	>
+				<input type="email" id="AdresMail" placeholder="Adresse mail" required>
 			</fieldset>
 			<fieldset>
 				<legend>Reservation Bus</legend>
@@ -69,11 +70,16 @@
 				<input type="datetime-local" id="Bus" required>	
                 <label>* Matin / Soir / Matin et Soir :</label>
                 <input type="radio" name="temps" id="temps1" required>
-				<label for="temps1" style="width:0%; display:inline">Matin</label>
+				<label for="temps1" style="display:inline">Matin</label>
 				<input type="radio" name="temps" id="temps2" required>
-				<label for="temps2" style="width:0%; display:inline">Soir</label>
+				<label for="temps2" style="display:inline">Soir</label>
 				<input type="radio" name="temps" id="temps3" required>
-				<label for="temps3" style="width:0%; display:inline">Matin et Soir</label>
+				<label for="temps3" style="display:inline">Matin et Soir</label>
+				<label>* Aller-Retour ?</label>
+				<input type= "radio" name="question" id="oui" required>
+				<label for="oui" style="display:inline">Oui</label>
+				<input type= "radio" name="question" id="non" required>
+				<label for="non" style="display:inline">Non</label>
 			</fieldset>
 			<label>* : CHAMP OBLIGATOIRE</label>
 			<input type="submit" value="Soumettre" required style="width: 80; height: 30px; border-radius: 30px;">

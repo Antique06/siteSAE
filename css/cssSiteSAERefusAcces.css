@@ -1,0 +1,23 @@
+menu#Principale {
+    display: space-around;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 13%;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+p#bouton {
+    border-style: solid;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}

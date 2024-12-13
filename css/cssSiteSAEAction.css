@@ -16,7 +16,9 @@ label {
 menu#Principal, menu#Principal > li > p {
     display: flex;
     justify-content: center;
+    text-align: center;
     color: white;
+    font-size: large;
 }
 
 menu#Principal > li {

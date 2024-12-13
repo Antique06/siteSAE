@@ -29,6 +29,6 @@ menu#principal > li > a {
 
 p {
 	display: flex;
-	justify-content: center;
+	text-align: center;
 }
 

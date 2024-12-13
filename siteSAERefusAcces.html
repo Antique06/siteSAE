@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<link rel="stylesheet" href="css/cssSiteSAE.css">
-	<link rel="stylesheet" href="css/cssSiteSAEConnexion.css">
+    <link rel="stylesheet" href="css/cssSiteSAERefusAcces.css">
 </head>
 <body>
 	<nav>
@@ -15,16 +15,14 @@
 			<li> <a href="https://www.spotify.com/fr/signup/" style="text-decoration:none"> S'inscrire </a> </li>
 			<li> <a href="https://www.spotify.com/fr/login/?continue=%2Ffr%2Fpremium%2F" style="text-decoration:none"> Connexion </a> </li>
 		</menu>
-	</nav>
-    <form action="siteSAEPrincipale.html">
-        <fieldset>
-            <legend>ÉCRAN DE CONNEXION POUR LES EMPLOYÉS</legend>
-            <input type="text" placeholder="Prenom.Nom" pattern=".+\.." required style="height: 80px; margin-bottom: 10px;">
-            <input type="password" placeholder="Mot de passe" required style="height: 80px; margin-bottom: 100px;">
-            <input type="submit" value="Se connecter" required style="height: 70px; margin-bottom: 10px;">
-            <label>NB: Vous devrez vous reconnecter à chaque fois par mesure de sécurité.</label>
-        </fieldset>
-    </form>
+    <menu id="Principale">
+        <p>
+            Merci de vous Connecter <br>
+            avant de pouvoir avoir <br>
+            accès à ces pages. <br>
+        </p> 
+        <nav><a href="siteSAEConnexion.html"><p id="bouton">Retourner à la page<br>de connexion</p></a></nav>
+    </menu>
     <nav> 
 		<menu id="pied">
 			<li id="imageSpotify"> <a href="https://Spotify.com"> <img src="images/Spotify.png" width="208" height="64"> </img> </a> </li>
